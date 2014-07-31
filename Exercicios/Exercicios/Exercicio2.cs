@@ -9,7 +9,7 @@ namespace Exercicios.Exercicios
 {
     class Exercicio2
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Console.WriteLine("---------- Exercício 2 ----------");
             Console.WriteLine("---------- Imprimir Números ----------");

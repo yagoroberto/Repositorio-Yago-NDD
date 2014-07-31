@@ -8,7 +8,7 @@ namespace Exercicios.Exercicios
 {
     class Exercicio6
     {
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
             Console.WriteLine("---------- Exercício 6 ----------");
             Console.WriteLine("---------- Triangulo repetido ----------");

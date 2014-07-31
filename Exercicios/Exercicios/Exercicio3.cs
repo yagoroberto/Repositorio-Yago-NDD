@@ -8,7 +8,7 @@ namespace Exercicios.Exercicios
 {
     class Exercicio3
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             Console.WriteLine("---------- Exercício 3 ----------");
             Console.WriteLine("---------- Impar & Par ----------");

@@ -8,7 +8,7 @@ namespace Exercicios.Exercicios
 {
     class Exercicio4
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             Console.WriteLine("---------- Exercício 4 ----------");
             Console.WriteLine("---------- Múltiplos de 4 ----------");
