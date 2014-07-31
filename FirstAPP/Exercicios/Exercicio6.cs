@@ -8,7 +8,7 @@ namespace FirstAPP.Exercicios
 {
     class Exercicio6
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("---------- Exercício 6 ----------");
             Console.WriteLine("---------- Triangulo repetido ----------");

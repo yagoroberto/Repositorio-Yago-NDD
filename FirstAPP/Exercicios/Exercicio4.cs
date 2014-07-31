@@ -8,7 +8,7 @@ namespace FirstAPP.Exercicios
 {
     class Exercicio4
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("---------- Exercício 4 ----------");
             Console.WriteLine("---------- Múltiplos de 4 ----------");

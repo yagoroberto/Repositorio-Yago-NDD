@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstAPP", "FirstAPP\FirstAPP.csproj", "{B1B9802E-5C07-43E5-B8BB-30ED9A91C1B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiramidePerfeita", "PiramidePerfeita\PiramidePerfeita.csproj", "{8A4EDB42-29E0-4895-8B42-AB7A92BE017A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B1B9802E-5C07-43E5-B8BB-30ED9A91C1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B9802E-5C07-43E5-B8BB-30ED9A91C1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B9802E-5C07-43E5-B8BB-30ED9A91C1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4EDB42-29E0-4895-8B42-AB7A92BE017A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4EDB42-29E0-4895-8B42-AB7A92BE017A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4EDB42-29E0-4895-8B42-AB7A92BE017A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4EDB42-29E0-4895-8B42-AB7A92BE017A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

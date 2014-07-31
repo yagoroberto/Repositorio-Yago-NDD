@@ -9,7 +9,7 @@ namespace FirstAPP.Exercicios
 {
     class Exercicio2
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("---------- Exercício 2 ----------");
             Console.WriteLine("---------- Imprimir Números ----------");
