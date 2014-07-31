@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FirstAPP
+namespace Exercicios.Exercicios
 {
     class ExerciciosJuntos
     {

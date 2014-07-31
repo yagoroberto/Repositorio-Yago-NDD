@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FirstAPP.Exercicios
+namespace Exercicios.Exercicios
 {
     class Exercicio2
     {
