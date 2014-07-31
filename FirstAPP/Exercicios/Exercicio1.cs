@@ -10,6 +10,7 @@ namespace FirstAPP.Exercicios
     {
         static void main(string[] args)
         {
+            Console.WriteLine("---------- Exercício 1 ----------");
             Console.WriteLine("---------- Imprimir Nome ----------");
             Console.Write("Digite o nome que deseja imprimir: ");
             String nome = Console.ReadLine();

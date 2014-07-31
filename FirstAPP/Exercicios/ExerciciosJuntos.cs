@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FirstAPP
 {
-    class Program
+    class ExerciciosJuntos
     {
         public static int menu()
         {
@@ -114,7 +114,6 @@ namespace FirstAPP
                             }
                         }
                         Console.WriteLine("");
-                        Console.WriteLine("");
                         break;
                     case 6:
                         Console.WriteLine("");
@@ -139,7 +138,7 @@ namespace FirstAPP
                         break;
                     case 7: 
                         Console.WriteLine("");
-                        Console.WriteLine("---------- Fibonacci----------");
+                        Console.WriteLine("---------- Fibonacci ----------");
                         Console.Write("Proximo de qual número deseja parar: ");
                         int pararFibonacci= Convert.ToInt32(Console.ReadLine());
                         int inicioFibonacci = 0;
