@@ -7,8 +7,8 @@
     <ProjectGuid>{B1B9802E-5C07-43E5-B8BB-30ED9A91C1B6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FirstAPP</RootNamespace>
-    <AssemblyName>FirstAPP</AssemblyName>
+    <RootNamespace>Exercicios</RootNamespace>
+    <AssemblyName>Exercicios 30 07</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
