@@ -26,7 +26,7 @@ namespace Unidade1.Exercicios
                     Console.WriteLine(contadorParImpar + " - **");
                 }
             }
-            Console.WriteLine("");
+            Console.ReadKey();
         }
     }
 }

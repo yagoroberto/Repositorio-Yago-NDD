@@ -35,6 +35,7 @@ namespace Unidade1.Exercicios
             Console.WriteLine("");
             Console.WriteLine("O número mais proximo depois de " + pararFibonacci + " foi " + calculoFibonacci);
             Console.WriteLine("");
+            Console.ReadKey();
         }
     }
 }

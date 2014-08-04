@@ -30,6 +30,7 @@ namespace Unidade1.ExerciciosComplementares
                 Console.WriteLine("Saldo negativo!");
                 Console.WriteLine("Saldo atual: " + saldoAtual);
             }
+            Console.ReadKey();
         }
     }
 }

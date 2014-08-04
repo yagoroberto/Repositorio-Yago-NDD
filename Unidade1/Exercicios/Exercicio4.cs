@@ -26,7 +26,7 @@ namespace Unidade1.Exercicios
                     Console.WriteLine(contadorMultiplosDe4);
                 }
             }
-            Console.WriteLine("");
+            Console.ReadKey();
         }
     }
 }

@@ -23,6 +23,7 @@ namespace Unidade1.Exercicios
                 }
                 Console.WriteLine(contadorNumeros);
             }
+            Console.ReadKey();
         }
     }
 }

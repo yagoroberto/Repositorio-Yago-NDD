@@ -27,7 +27,7 @@ namespace Unidade1.Exercicios
                     }
                 }
             }
-            Console.WriteLine("");
+            Console.ReadKey();
         }
     }
 }
