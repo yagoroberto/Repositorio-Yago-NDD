@@ -22,7 +22,7 @@ namespace Exercicios.Exercicios
             Console.Write("Selecione sua opção: ");
             return Convert.ToInt32(Console.ReadLine());
         }
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
 
             Console.WriteLine("");

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D201A62F-3D7D-4FF0-BF57-294F8E2AA312}</ProjectGuid>
+    <ProjectGuid>{AD83CA40-6D3A-4AEC-8888-AFDDF53A94AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Exercicios</RootNamespace>
-    <AssemblyName>Exercicios</AssemblyName>
+    <RootNamespace>ExercicioComplementar</RootNamespace>
+    <AssemblyName>ExercicioComplementar</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -46,9 +46,6 @@
     <Compile Include="Exercicios\Exercicio3.cs" />
     <Compile Include="Exercicios\Exercicio4.cs" />
     <Compile Include="Exercicios\Exercicio5.cs" />
-    <Compile Include="Exercicios\Exercicio6.cs" />
-    <Compile Include="Exercicios\Exercicio7.cs" />
-    <Compile Include="Exercicios\ExerciciosJuntos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
