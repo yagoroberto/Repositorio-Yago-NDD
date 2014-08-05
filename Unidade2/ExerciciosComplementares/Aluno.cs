@@ -12,5 +12,6 @@ namespace Unidade2.ExerciciosComplementares
         public string rg;
         public string dataNascimento;
         public Turma turma; 
+        
     }
 }

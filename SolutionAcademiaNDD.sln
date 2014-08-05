@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade1", "Unidade1\Unidade1.csproj", "{B4745357-5E52-40D1-960C-D668D400D28B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade2", "Unidade2\Unidade2.csproj", "{D57CA154-EA1F-4F9E-A27E-166A9EA6D6A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteForms", "TesteForms\TesteForms.csproj", "{10F35EA1-1061-498B-908B-49CBD5808996}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D57CA154-EA1F-4F9E-A27E-166A9EA6D6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D57CA154-EA1F-4F9E-A27E-166A9EA6D6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D57CA154-EA1F-4F9E-A27E-166A9EA6D6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F35EA1-1061-498B-908B-49CBD5808996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F35EA1-1061-498B-908B-49CBD5808996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F35EA1-1061-498B-908B-49CBD5808996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F35EA1-1061-498B-908B-49CBD5808996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
