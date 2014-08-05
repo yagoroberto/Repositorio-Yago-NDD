@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unidade2.Orientacao_a_Objetos
+namespace Unidade2.ExerciciosComplementares
 {
-    class Aluno
+    class Funcionario
     {
         public string nome;
-        public string rg;
-        public string dataNascimento;
+        public string cargo;
+        public string cargoFuncionario;
     }
 }

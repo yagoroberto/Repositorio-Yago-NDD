@@ -41,14 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExerciciosComplementares\Funcionario.cs" />
+    <Compile Include="ExerciciosComplementares\TestaFuncionario.cs" />
+    <Compile Include="ExerciciosComplementares\TestaTurma.cs" />
+    <Compile Include="ExerciciosComplementares\Turma.cs" />
     <Compile Include="Orientacao_a_Objetos\Agencia.cs" />
-    <Compile Include="Orientacao_a_Objetos\Aluno.cs" />
+    <Compile Include="ExerciciosComplementares\Aluno.cs" />
     <Compile Include="Orientacao_a_Objetos\CartaoDeCredito.cs" />
     <Compile Include="Orientacao_a_Objetos\Cliente.cs" />
     <Compile Include="Orientacao_a_Objetos\Conta.cs" />
+    <Compile Include="Orientacao_a_Objetos\ContaEAgencia.cs" />
+    <Compile Include="Orientacao_a_Objetos\TestaContaEAgencia.cs" />
     <Compile Include="Orientacao_a_Objetos\TestaValoresPadrao.cs" />
     <Compile Include="Orientacao_a_Objetos\TesteAgencia.cs" />
-    <Compile Include="Orientacao_a_Objetos\TesteAluno.cs" />
+    <Compile Include="ExerciciosComplementares\TesteAluno.cs" />
     <Compile Include="Orientacao_a_Objetos\TesteCartaoDeCredito.cs" />
     <Compile Include="Orientacao_a_Objetos\TesteCliente.cs" />
     <Compile Include="Orientacao_a_Objetos\TesteConta.cs" />
@@ -57,9 +63,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ExerciciosComplementares\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
