@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Unidade2.Orientacao_a_Objetos
 {
-    class CartaoDeCredito
+    class ContaEAgencia
     {
         public int numero;
-        public string dataDeValidade;
+        public double saldo;
+        public double limite = 100;
 
-        public Cliente cliente;
+        public Agencia agencia;
     }
 }
