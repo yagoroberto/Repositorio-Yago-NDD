@@ -41,6 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Orientacao_a_Objetos\Agencia.cs" />
+    <Compile Include="Orientacao_a_Objetos\Aluno.cs" />
+    <Compile Include="Orientacao_a_Objetos\CartaoDeCredito.cs" />
+    <Compile Include="Orientacao_a_Objetos\Cliente.cs" />
+    <Compile Include="Orientacao_a_Objetos\Conta.cs" />
+    <Compile Include="Orientacao_a_Objetos\TestaValoresPadrao.cs" />
+    <Compile Include="Orientacao_a_Objetos\TesteAgencia.cs" />
+    <Compile Include="Orientacao_a_Objetos\TesteAluno.cs" />
+    <Compile Include="Orientacao_a_Objetos\TesteCartaoDeCredito.cs" />
+    <Compile Include="Orientacao_a_Objetos\TesteCliente.cs" />
+    <Compile Include="Orientacao_a_Objetos\TesteConta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ExerciciosComplementares\" />
-    <Folder Include="Exercicios\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
