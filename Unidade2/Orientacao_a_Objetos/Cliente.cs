@@ -10,5 +10,7 @@ namespace Unidade2.Orientacao_a_Objetos
     {
         public string nome;
         public int codigo;
+
+
     }
 }

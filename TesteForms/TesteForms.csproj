@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D57CA154-EA1F-4F9E-A27E-166A9EA6D6A8}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{10F35EA1-1061-498B-908B-49CBD5808996}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unidade2</RootNamespace>
-    <AssemblyName>Unidade2</AssemblyName>
+    <RootNamespace>TesteForms</RootNamespace>
+    <AssemblyName>TesteForms</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -38,37 +38,44 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExerciciosComplementares\Funcionario.cs" />
-    <Compile Include="ExerciciosComplementares\Funcionarios.cs" />
-    <Compile Include="ExerciciosComplementares\TestaFuncionario.cs" />
-    <Compile Include="ExerciciosComplementares\TestaTurma.cs" />
-    <Compile Include="ExerciciosComplementares\TesteFuncionarios.cs" />
-    <Compile Include="ExerciciosComplementares\Turma.cs" />
-    <Compile Include="Orientacao_a_Objetos\Agencia.cs" />
-    <Compile Include="ExerciciosComplementares\Aluno.cs" />
-    <Compile Include="Orientacao_a_Objetos\CartaoDeCredito.cs" />
-    <Compile Include="Orientacao_a_Objetos\Cliente.cs" />
-    <Compile Include="Orientacao_a_Objetos\Conta.cs" />
-    <Compile Include="Orientacao_a_Objetos\ContaEAgencia.cs" />
-    <Compile Include="Orientacao_a_Objetos\TestaContaEAgencia.cs" />
-    <Compile Include="Orientacao_a_Objetos\TestaValoresPadrao.cs" />
-    <Compile Include="Orientacao_a_Objetos\TesteAgencia.cs" />
-    <Compile Include="ExerciciosComplementares\TesteAluno.cs" />
-    <Compile Include="Orientacao_a_Objetos\TesteCartaoDeCredito.cs" />
-    <Compile Include="Orientacao_a_Objetos\TesteCliente.cs" />
-    <Compile Include="Orientacao_a_Objetos\TesteConta.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exercicio Fixacao 1.10\Exercicio Complementar\" />
-    <Folder Include="Exercicio Fixacao 1.13\Exercicio Complementar\" />
-    <Folder Include="Exercicio Fixacao 1.7\Exercicio Complementar\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
