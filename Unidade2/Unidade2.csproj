@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExerciciosComplementares\Funcionario.cs" />
+    <Compile Include="ExerciciosComplementares\Funcionarios.cs" />
     <Compile Include="ExerciciosComplementares\TestaFuncionario.cs" />
     <Compile Include="ExerciciosComplementares\TestaTurma.cs" />
+    <Compile Include="ExerciciosComplementares\TesteFuncionarios.cs" />
     <Compile Include="ExerciciosComplementares\Turma.cs" />
     <Compile Include="Orientacao_a_Objetos\Agencia.cs" />
     <Compile Include="ExerciciosComplementares\Aluno.cs" />

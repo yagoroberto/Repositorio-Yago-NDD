@@ -11,5 +11,26 @@ namespace Unidade2.Orientacao_a_Objetos
         public int numero;
         public double saldo;
         public double limite = 100;
+        public Agencia agencia;
+
+        public void Deposita(double valor)
+        {
+            this.saldo += valor;
+        }
+
+        public void Saca(double valor)
+        {
+            this.saldo -= valor;
+        }
+
+        public void ImprimiExtrato()
+        {
+            Console.WriteLine("Saldo: " + this.saldo);
+        }
+
+        public double ConsultaSalarioDisponivel()
+        {
+            return this.saldo + this.limite;
+        }
     }
 }
