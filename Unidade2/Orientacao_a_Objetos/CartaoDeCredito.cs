@@ -12,5 +12,10 @@ namespace Unidade2.Orientacao_a_Objetos
         public string dataDeValidade;
 
         public Cliente cliente;
+
+        public CartaoDeCredito(int numero)
+        {
+            this.numero = numero;
+        }
     }
 }

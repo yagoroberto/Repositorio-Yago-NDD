@@ -10,9 +10,8 @@ namespace Unidade2.Orientacao_a_Objetos
     {
         private static void Main2()
         {
-            CartaoDeCredito cartaoDeCredito1 = new CartaoDeCredito();
+            CartaoDeCredito cartaoDeCredito1 = new CartaoDeCredito(12312312);
             Cliente cliente1 = new Cliente();
-            cartaoDeCredito1.numero = 123098591;
             cartaoDeCredito1.dataDeValidade = "30/12/2015";
 
             cliente1.nome = "Yago Roberto";
@@ -21,9 +20,8 @@ namespace Unidade2.Orientacao_a_Objetos
             cartaoDeCredito1.cliente = cliente1;
 
 
-            CartaoDeCredito cartaoDeCredito2 = new CartaoDeCredito();
+            CartaoDeCredito cartaoDeCredito2 = new CartaoDeCredito(829828);
             Cliente cliente2 = new Cliente();
-            cartaoDeCredito2.numero = 0982471712;
             cartaoDeCredito2.dataDeValidade = "23/10/2016";
 
             cliente2.nome = "Joao da Silva";

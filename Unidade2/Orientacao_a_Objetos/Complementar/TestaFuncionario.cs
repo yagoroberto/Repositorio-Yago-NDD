@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unidade2.Orientacao_a_Objetos
+namespace Unidade2.Orientacao_a_Objetos.Complementar
 {
-    class Agencia
+    class TestaFuncionario
     {
-        public int numero;
-
-        public Agencia(int numero)
+        private static void Main12()
         {
-            this.numero = numero;
+
         }
     }
 }

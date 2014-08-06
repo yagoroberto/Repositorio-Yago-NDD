@@ -10,7 +10,8 @@ namespace Unidade2.Orientacao_a_Objetos
     {
         private static void Main8()
         {
-            Conta conta = new Conta();
+            Agencia agencia = new Agencia(123124);
+            Conta conta = new Conta(agencia);   
 
             conta.Deposita(2000);
             conta.ImprimiExtrato();

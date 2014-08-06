@@ -51,25 +51,28 @@
     <Compile Include="ExerciciosComplementares\Aluno.cs" />
     <Compile Include="Orientacao_a_Objetos\CartaoDeCredito.cs" />
     <Compile Include="Orientacao_a_Objetos\Cliente.cs" />
+    <Compile Include="Orientacao_a_Objetos\Complementar\ContaBanco.cs" />
+    <Compile Include="Orientacao_a_Objetos\Complementar\Funcionario.cs" />
+    <Compile Include="Orientacao_a_Objetos\Complementar\TestaContaBanco.cs" />
+    <Compile Include="Orientacao_a_Objetos\Complementar\TestaFuncionario.cs" />
     <Compile Include="Orientacao_a_Objetos\Conta.cs" />
     <Compile Include="Orientacao_a_Objetos\ContaEAgencia.cs" />
+    <Compile Include="Orientacao_a_Objetos\Gerente.cs" />
     <Compile Include="Orientacao_a_Objetos\TestaContaEAgencia.cs" />
+    <Compile Include="Orientacao_a_Objetos\TestaMetodoTransfere.cs" />
     <Compile Include="Orientacao_a_Objetos\TestaValoresPadrao.cs" />
     <Compile Include="Orientacao_a_Objetos\TesteAgencia.cs" />
     <Compile Include="ExerciciosComplementares\TesteAluno.cs" />
     <Compile Include="Orientacao_a_Objetos\TesteCartaoDeCredito.cs" />
     <Compile Include="Orientacao_a_Objetos\TesteCliente.cs" />
     <Compile Include="Orientacao_a_Objetos\TesteConta.cs" />
+    <Compile Include="Orientacao_a_Objetos\TesteGerente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exercicio Fixacao 1.10\Exercicio Complementar\" />
-    <Folder Include="Exercicio Fixacao 1.13\Exercicio Complementar\" />
-    <Folder Include="Exercicio Fixacao 1.7\Exercicio Complementar\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -15,8 +15,7 @@ namespace Unidade2.Orientacao_a_Objetos
             conta1.saldo = 1000;
             conta1.limite = 500;
 
-            Agencia agencia1 = new Agencia();
-            agencia1.numero = 1234;
+            Agencia agencia1 = new Agencia(2222);
 
             conta1.agencia = agencia1;
 
@@ -25,8 +24,7 @@ namespace Unidade2.Orientacao_a_Objetos
             conta2.saldo = 2000;
             conta2.limite = 250;
 
-            Agencia agencia2 = new Agencia();
-            agencia2.numero = 5678;
+            Agencia agencia2 = new Agencia(11111);
 
             conta2.agencia = agencia2;
 
