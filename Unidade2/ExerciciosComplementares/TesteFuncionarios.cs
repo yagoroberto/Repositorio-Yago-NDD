@@ -8,7 +8,7 @@ namespace Unidade2.ExerciciosComplementares
 {
     class TesteFuncionarios
     {
-        private static void Main()
+        private static void Main9()
         {
             Funcionarios funcionario = new Funcionarios();
             funcionario.nome = "Yago Roberto";
