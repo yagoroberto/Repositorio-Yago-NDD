@@ -12,6 +12,14 @@ namespace Unidade2.Orientacao_a_Objetos.Complementar
         public double limite;
         public double saldo;
 
+        public void Deposita(double valor)
+        {
+            this.saldo += valor;
+        }
 
+        public void Saca(double valor)
+        {
+            this.saldo -= valor;
+        }
     }
 }
