@@ -81,6 +81,8 @@ namespace Unidade3.ExercicioComplementar
                         Console.WriteLine("");
                         Console.WriteLine("--------- Listar ---------");
                         Console.WriteLine("");
+
+                        double valorTotal = 0;
                         if (controleGastos.Count < 1)
                         {
                             Console.WriteLine("Nenhum gasto cadastrado!");
@@ -95,8 +97,12 @@ namespace Unidade3.ExercicioComplementar
                                 Console.WriteLine("Valor gasto: R$ " + listar.valorGasto);
                                 Console.WriteLine("Forma de Pagamento: " + listar.formaDePagamento);
                                 Console.WriteLine("");
+                                valorTotal += listar.valorGasto;
                             }
                         }
+
+                        Console.WriteLine("Valor total: " + valorTotal);
+                        Console.WriteLine("");
                         Console.ReadKey();
                         Console.Clear();
                         Console.WriteLine("");
@@ -140,6 +146,7 @@ namespace Unidade3.ExercicioComplementar
                                                 acao = "0";
                                                 break;
                                             case "2":
+                                                //Necessário aperfeiçoar!
                                                 Console.WriteLine("");
                                                 Console.WriteLine("--------- Alterar ---------");
                                                 Console.Write("Informe o tipo de gasto: ");
