@@ -45,6 +45,8 @@
     <Compile Include="Array\ExercicioComplementar\MaiorNumero.cs" />
     <Compile Include="Array\ExercicioFixacao\ImprimeValores.cs" />
     <Compile Include="Array\ExercicioFixacao\OrdenaValores.cs" />
+    <Compile Include="ExercicioComplementar\ControleDeGastos.cs" />
+    <Compile Include="ExercicioComplementar\ControleDeGastosTeste.cs" />
     <Compile Include="ExerciciosProva\CD.cs" />
     <Compile Include="ExerciciosProva\Exercicio5.cs" />
     <Compile Include="ExerciciosProva\Exercicio6.cs" />

@@ -8,7 +8,7 @@ namespace Unidade3.Array.ExercicioComplementar
 {
     class MaiorNumero
     {
-        private static void Main6()
+        private static void Main999()
         {
             Random random = new Random();
 
