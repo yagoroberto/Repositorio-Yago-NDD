@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\ExercicioComplementar\CalculoMedia.cs" />
-    <Compile Include="Array\ExercicioComplementar\MaiorNumero.cs" />
     <Compile Include="Array\ExercicioFixacao\ImprimeValores.cs" />
     <Compile Include="Array\ExercicioFixacao\OrdenaValores.cs" />
     <Compile Include="ExercicioComplementar\ControleDeGastos.cs" />
