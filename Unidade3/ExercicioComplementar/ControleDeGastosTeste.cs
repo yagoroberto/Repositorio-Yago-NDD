@@ -220,10 +220,5 @@ namespace Unidade3.ExercicioComplementar
 
             Console.ReadKey();
         }
-
-        public static void menuAlterarRemover(ControleDeGastos controleDeGastos)
-        {
-            
-        }
     }
 }
